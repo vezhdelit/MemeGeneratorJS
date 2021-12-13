@@ -12,7 +12,6 @@ file.addEventListener('change', function(){
         return
     }
     let reader = new FileReader()
-    canvas.setDim
     reader.onload = function(e){
         let data = reader.result
         fabric.Image.fromURL(data, function(img){
@@ -44,7 +43,7 @@ addTextBtn.addEventListener('click', function(){
         editable: true,
         left: 100,
         top: 100,
-        fontSize: 64,
+        fontSize: 82,
         fontFamily: fontFamily.options[fontFamily.selectedIndex].value,
         opacity: opacity.value,
         fill: color.value,

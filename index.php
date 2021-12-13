@@ -22,11 +22,11 @@
 
             <label for="fontFamily">Font family</label>
             <p><select id="fontFamily" class="form-select">
+                    <option value="Montserrat">Montserrat</option>
                     <option value="Roboto">Roboto</option>
                     <option value="Times New Roman">Times New Roman</option>
                     <option value="Impact">Impact</option>
                     <option value="Pacifico">Pacifico</option>
-                    <option value="Montserrat">Montserrat</option>
                     <option value="Arial">Arial</option>
                 </select>
             </p>
@@ -41,7 +41,6 @@
                 <input class="form-check-input" type="checkbox" id="strokeCheckbox">
                 <label class="form-check-label" for="strokeCheckbox">Enable text stroke</label>
             </div>
-
 
             <button class="btn btn-primary" id="addText">Add new text</button>
         </div>
