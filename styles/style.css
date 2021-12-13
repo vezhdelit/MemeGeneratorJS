@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: dodgerblue;
+    background-image: url("bg/doge.jpg");
+}
+
+h1{
+    font-family: 'Montserrat Black', sans-serif;
+    margin: 0.5em 0 0.5em 0;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.container{
+    display: flex;
+    width: fit-content;
+}
+.sidebar{
+    background-color: rgba(0,0,255,0.1);
+    margin-left: 1em;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+.group{
+    background-color: rgba(0,0,255,0.1);
+    padding: .5em;
+    margin: 1em 0;
+    border-radius: 3px;
+}
+.group *, button{
+    display: block;
+    margin: .5em 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button{
+    padding: .5em;
+}
